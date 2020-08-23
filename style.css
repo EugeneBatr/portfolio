@@ -1,12 +1,54 @@
-.layout {
-  
-
-    
+* {
+  box-sizing: border-box;
 }
-.test {
-    background-color: green;
-      width: 100%;  
-    height: 30px;
-    float: left;
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.progects {
+  background-color: #34547A;
+  padding: 100px 0;
+}
+.progects-description {
+  color: white;
+}
+.progects-title {
+  color: white;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.progects-item {
+  width: 16.6%;
+  float: left;
+}
+.progects-content {
+  width: 50%;
+  float: left;
+}
+.progect-img {
+  float: left;
+  margin-right: 20px;
+}
+.about-me {
+  padding: 100px 0;
+  
+}
+.container-me {
+  margin: 0 auto;
+  text-align: center;
+  width: 540px;
+}
+.about-me-description {
+  line-height: 26px;
+  color: #727272;
+}
+.about-me-title {
+   font-size: 32px;
+   padding-bottom: 50px;
 
 }
