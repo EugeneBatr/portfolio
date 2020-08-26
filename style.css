@@ -50,5 +50,37 @@ body {
 .about-me-title {
    font-size: 32px;
    padding-bottom: 50px;
-   color: red;
+   color: black;
+}
+.WD {
+  color: #34547A;
+  font-size: 48px;
+  line-height: 60px;
+  font-family: ;
+  padding-left: 402px;
+  padding-top: 57px;
+}
+.container-title {
+  width: 50%;
+  float: left;
+}
+.work-title {
+  font-size: 32px;
+  line-height: 37px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.work {
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.video {
+  padding-top: 57px;
+  width: 1110px;
+}
+.work-discription {
+  width: 540px;
+  text-align: center;
+  margin: 0 auto;
 }
