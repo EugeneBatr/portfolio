@@ -56,13 +56,15 @@ body {
   color: #34547A;
   font-size: 48px;
   line-height: 60px;
-  font-family: ;
-  padding-left: 402px;
+  padding-left: 300px;
   padding-top: 57px;
+  padding-right: 200px;
+  float: left;
 }
 .container-title {
-  width: 50%;
+  width: 8%;
   float: left;
+  margin: 0 auto;
 }
 .work-title {
   font-size: 32px;
@@ -78,9 +80,17 @@ body {
 .video {
   padding-top: 57px;
   width: 1110px;
+  margin: 0 auto;
 }
 .work-discription {
   width: 540px;
   text-align: center;
   margin: 0 auto;
+}
+.title {
+  padding-top: 79px;
+}
+.frame {
+  padding-top: 278px;
+  padding-left: 487px;
 }
