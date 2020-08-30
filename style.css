@@ -75,12 +75,13 @@ body {
 .work {
   margin: 0 auto;
   text-align: center;
-  
+  padding: 100px 0;
 }
 .video {
   padding-top: 57px;
   width: 1110px;
   margin: 0 auto;
+  background-image: url("video.png");
 }
 .work-discription {
   width: 540px;
@@ -92,5 +93,35 @@ body {
 }
 .frame {
   padding-top: 278px;
-  padding-left: 487px;
+  
+}
+.gallery {
+}
+.gallary-paper {
+  float: left;
+  height: 480px;
+  width: 25%;
+  background-image: url("picture1.png");
+  position: relative;
+}
+.gallary-laptop {
+  float: left;
+  height: 480px;
+  width: 25%;
+  background-image: url("picture2.png");
+  position: relative;
+}
+.gallary-item-shadow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0 0 255 / 52%);
+  opacity: 0;
+}
+.gallary-item-shadow:hover {
+  opacity: 1;
 }
