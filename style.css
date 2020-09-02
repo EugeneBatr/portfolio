@@ -75,7 +75,6 @@ body {
 .work {
   margin: 0 auto;
   text-align: center;
-  padding: 100px 0;
 }
 .video {
   padding-top: 57px;
@@ -94,8 +93,6 @@ body {
 .frame {
   padding-top: 278px;
   
-}
-.gallery {
 }
 .gallary-paper {
   float: left;
@@ -124,4 +121,30 @@ body {
 }
 .gallary-item-shadow:hover {
   opacity: 1;
+}
+.microsoft {
+  height: 120px;
+  width: 255px;
+}
+.clients {
+ padding-left: 405px;
+
+}
+.vk {
+ background: #34547A;
+}
+.name {
+  font-size: 21px;
+  color: white;
+  padding-left: 406px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.prava {
+  font-size: 13px;
+  color: white;
+  padding-left: 406px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: 0 auto;
 }
