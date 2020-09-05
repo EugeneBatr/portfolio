@@ -56,29 +56,120 @@ body {
   color: #34547A;
   font-size: 48px;
   line-height: 60px;
-  padding-left: 402px;
+  padding-left: 25%;
   padding-top: 57px;
+  float: left;
 }
 .container-title {
+  padding-left: 8%;
   float: left;
+  margin: 0 auto;
 }
 .work-title {
   font-size: 32px;
   line-height: 37px;
   padding-top: 100px;
   padding-bottom: 50px;
+  text-align: center;
 }
 .work {
   margin: 0 auto;
-  text-align: center;
-  
+  height: 1004px;
 }
 .video {
   padding-top: 57px;
   width: 1110px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url("video.png");
+  background-size: cover;
+  position: relative;
+}
+.video-shadow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("Vector.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+}
+.video-shadow:hover {
+  opacity: 1;
 }
 .work-discription {
+
   width: 540px;
   text-align: center;
   margin: 0 auto;
+}
+.title {
+  padding-top: 79px;
+  padding-left: 45%;
+}
+.frame {
+  padding-top: 278px;
+
+}
+.gallary-paper {
+  float: left;
+  height: 480px;
+  width: 25%;
+  background-image: url("picture1.png");
+  position: relative;
+}
+.gallary-laptop {
+  float: left;
+  height: 480px;
+  width: 25%;
+  background-image: url("picture2.png");
+  position: relative;
+}
+.gallary-item-shadow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0 0 255 / 52%);
+  opacity: 0;
+}
+.gallary-item-shadow:hover {
+  opacity: 1;
+}
+.microsoft {
+  height: 120px;
+  width: 255px;
+}
+.clients {
+ padding-left: 405px;
+
+}
+.vk {
+ background: #34547A;
+}
+.name {
+  font-size: 21px;
+  color: white;
+  padding-left: 25%;
+  padding-top: 50px;
+  margin: 0 auto;
+  float: left;
+}
+.prava {
+  font-size: 13px;
+  color: white;
+  padding-left: 25%;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.vk-image {
+  padding-top: 64px;
+  padding-left: 75%;
 }
